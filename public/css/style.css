@@ -1,0 +1,24 @@
+.container {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center
+}
+
+input {
+  display:inline-block;
+  margin: 10px;
+  height: 20px;
+  border-radius: 5px;
+  border: 0.1em solid #1e1e1e;
+}
+
+#player_names{
+  text-align: center;
+  width: 150px;
+  margin: 0 auto;
+  display: none;
+}
+
+#bowling_controllers {
+  display:none;
+}

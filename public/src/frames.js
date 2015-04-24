@@ -19,7 +19,7 @@ Frames.prototype.calculate = function(rolls) {
     if (lastFrameRoll > 2 || lastFrameRoll > 1 && noBonus()) return frames.over = true;
   }
 
-  function noBonus() {
+  function noBonus(){
     if (rolls[roll - 1] + rolls[roll - 2] < 10) return frames.noBonus = true;
   }
 

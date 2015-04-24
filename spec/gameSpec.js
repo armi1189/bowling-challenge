@@ -35,8 +35,7 @@ describe('Game', function(){
     it('can be started', function(){
       game.addPlayer(player1)
       game.start(pins, frames)
-      expect(game.pins.standing).toEqual(10);
-      expect(game.players[0].frames.total).toEqual(10);
+      expect(game.play).toEqual(true);
     });
 
     it('cannot be started without a player', function(){
@@ -70,9 +69,9 @@ describe('Game', function(){
       spyOn(game, "performRoll").and.callFake(function() {
         player1.rolls = [2]
       });
-      game.performRoll(2);
-      game.performRoll(2);
       player1.frames.score = [4]
+      game.performRoll(2);
+      game.performRoll(2);
       expect(game.currentPlayer).toEqual(player2);
     })
 
