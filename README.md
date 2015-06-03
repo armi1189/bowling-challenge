@@ -5,15 +5,18 @@ Bowling Challenge
 ----
 What is it?
 ----
-bla bla bla  
+
+###[Try it on Heroku!](https://morning-journey-8609.herokuapp.com/)
+----
+
+How to run?
+---
 
 Tools
 ----
 - Develop: Javascript, JQuery, HTML and CSS  
 - Testing: Jasmine and Jasmine-JQuery
 
-###[Try it on Heroku!](https://morning-journey-8609.herokuapp.com/)
-----
 ![BowlingScoreCalculator](https://github.com/armi1189/bowling-challenge/blob/master/public/img/bowlingscore1.jpg)
 ----
 
