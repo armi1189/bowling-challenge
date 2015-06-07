@@ -14,12 +14,12 @@ How to run?
 ---
 - Follow [heroku link](https://morning-journey-8609.herokuapp.com/) to view it on web.
 - Clone the repo and open `home.html` to run the app locally.
+  
+![BowlingScoreCalculator](https://github.com/armi1189/bowling-challenge/blob/master/public/img/bowlingscore1.jpg)
 
 Tools
 ----
 - Develop: Javascript, JQuery, HTML and CSS  
 - Testing: Jasmine and Jasmine-JQuery
-
-![BowlingScoreCalculator](https://github.com/armi1189/bowling-challenge/blob/master/public/img/bowlingscore1.jpg)
 ----
 
