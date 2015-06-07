@@ -19,7 +19,6 @@ How to run?
 
 Tools
 ----
-- Develop: Javascript, JQuery, HTML and CSS  
+- Develop: Javascript, JQuery, HTML and CSS 
 - Testing: Jasmine and Jasmine-JQuery
-----
 
